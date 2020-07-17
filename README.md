@@ -1,5 +1,4 @@
-# nutanix_uefi
-UEFI環境用 Nutanix CE AVH インストールイメージ作成方法
+# UEFI環境用 Nutanix CE AVH インストールイメージ作成方法
 
 # 目的
 Nutanix CE AVHはUEFIからbootが出来ない。そのため2TBを超えるHDDが使用出来ないなど実用性に問題がある。

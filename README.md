@@ -131,8 +131,8 @@ unable to get drive geometry, using default 255/63
 
 # grub.cfgを変更する
 変更先
-``` bash
-# vi /tmp/nutanix_vfat/EFI/BOOT/grub.cfg
+```
+/tmp/nutanix_vfat/EFI/BOOT/grub.cfg
 ```
 
 参考元

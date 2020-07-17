@@ -17,7 +17,7 @@ Nutanix CE AVHはUEFIからbootが出来ない。そのため2TBを超えるHDD�
 # 作業環境
 CentOS-7-x86_64-DVD-2003.iso を最小構成でインストールした環境において、rootユーザーで作業する。
 
-最初にインスートール ※参照元のページはタイプミスがあるので注意
+最初にvfatフォーマットをするために`dosfstools`をインスートール ※参照元のページはタイプミスがあるので注意
 ``` bash
 yum install dosfstools  
 ```
@@ -43,7 +43,7 @@ yum install dosfstools
 # fallocate -o 7444889600 -l 40m ce-2019.11.22-stable.img
 ```
 
-## 1-3 拡張スペースにパーティションを作成する
+# 拡張スペースにパーティションを作成する
 ``` bash
 # cfdisk ./ce-2019.11.22-stable.img
 ```
